@@ -1,0 +1,14 @@
+test1:
+  path: I:\Projects\remove_old_files\Test
+  file_regex: 'FileName1(.*?).csv'
+  days_back: 0
+  weeks_back: 0
+  months_back: 1
+  years_back: 3
+test2:
+  path: I:\Projects\remove_old_files\Test
+  file_regex: 'FileName2(.*?).xlsx'
+  days_back: 7
+  weeks_back: 0
+  months_back: 0
+  years_back: 0
