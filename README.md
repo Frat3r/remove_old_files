@@ -13,4 +13,4 @@ Also log file will be created in folder _logs_ containing group of deleted files
 
 ## Use in SQL Server job
 To use _remove_old_files.exe_ in SQL Server job you should modify **WorkingDirectory** and **Executable** from _SSISRunRemove.dtsx_ in such a way that **WorkingDirectory** leads to a folder containing _config.yml_ and **Executable** points to the _remove_old_files.exe_.  
-In SQL Server job you should create new step with type _SQL Server Integration Services Package_, _Package source_ _File system_ and _Package_ path leading to _SSISRunRemove.dtsx_.
+In SQL Server job you should create new step with type _SQL Server Integration Services Package_, **Package source** _File system_ and **Package** path leading to _SSISRunRemove.dtsx_.
